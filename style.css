@@ -1,14 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
 body {
     background-color: #2C2141;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .main {
     background: #F8F8F8;
     border-radius: 16px;
     width: 624px;
-    margin: 16px;
+    padding: 32px;
+}
+
+.person {
+
+}
+
+.person_description {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person_name {
+font-weight: normal;
+font-size: 36px;
+margin: 0;
+}
+
+.person_position {
+    font-size: 18px;
+    color: #545454;
+    margin:0;
+    font-style: italic;
+}
+
+.special {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+.person_link {
+    color: #E20613;
 }
